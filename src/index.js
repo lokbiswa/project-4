@@ -53,7 +53,7 @@ class Course {
     this.students.forEach((student) => student.describe());
   }
 }
-
+// teacher's insatances
 const dylan = new Teacher(
   "Dylan",
   20,
@@ -62,7 +62,7 @@ const dylan = new Teacher(
   "JavaScrip",
   "dylhack@gmail.com"
 );
-
+// students instances
 const lok = new Student("Lok", 27, "male", 111, "Dylan", "software devaloper");
 const amy = new Student(
   "Amy",
@@ -80,7 +80,7 @@ const katie = new Student(
   "Dylan",
   "software devaloper"
 );
-
+// create course
 const js = new Course(dylan, "JavaScript");
 js.addStudent(lok);
 js.addStudent(amy);
